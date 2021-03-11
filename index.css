@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+    * {
+    max-width:100%;
+    font-size: 62.5%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    
+    
+   
+  
+   
+}
+/* Start of Page */
+
+.nav {
+    /* display: inline;
+    
+    width: 300px;
+    height: 100px;
+    padding: 50%;
+    margin-top: 20rem;
+    
+   
+    
+    position: relative;
+    top: 25px; */
+    font-size: 1rem;
+    margin-top: 2rem;
+    vertical-align: middle;
+  color:white;
+  text-align: center;
+}
+a.Plan:link {
+    
+    background-color:#FF764E;
+    border: 0px solid #FF764E;
+    border-radius: 5px;
+   
+    
+    
+  
+    
+  
+}
+a.Learn:link {
+    background-color:#5ED3EB;
+    
+    border-radius: 5px;
+
+    margin:10px;
+    
+   
+}
+
+ a.Get:link {
+     
+    background-color:#FFCD69;
+    border-radius: 5px;
+    /* margin: 10px; */
+    
+  }
+
+.pic1{
+    
+ 
+  border-radius: 50rem;
+  position: relative;
+  right: 5%;
+  
+
+
+}
+.box1 p {
+    background-color: #DDB9A3;
+    background-size: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:5px;
+    padding-top:5px ;
+    text-align: center;
+    color: white;
+    margin-left: 25px;
+    margin-right:25px;
+    font-size: 1rem;
+
+
+}
+.top img{
+    height: 10rem;
+    width: 10rem;
+    margin-top: 5rem;
+
+}
+ /* .under{
+    padding-bottom: 5px;
+    padding-left: 100px;
+    
+    color:black;
+    height: 5px; */
+h1{
+        font-family: 'Chelsea Market', cursive;
+        font-display: center;
+        padding-left: 1em;
+        padding-right: 5em;
+        padding-top: 3em;
+        font-size: 3em;
+        float: right;
+    }
+
+    
+
+.top p{
+    font-display: center;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    height:20px ;
+    position: relative;
+    left: 1rem;
+    bottom: 5rem;
+}
+
+
+.places img{
+    height: 5rem;
+    width: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+.top .box1 {
+    background-color: #DDB9A3;
+    background-size: 50rem;
+    padding: 10em;
+    color :white; 
+} 
+
+
+}
+#middle .reserve1 .img{
+    padding-right: 50rem;
+}
+
+#middle .reserve2 .img{
+    padding-right: 50rem;
+}
+#middle .reserve {
+    height:5rem;
+    width: 5rem;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 25em;
+    padding-right: 25em
+
+  }
+  
+  #middle .reserve2 .img{
+    padding-right: 20rem;
+}
+
+#middle p {
+    padding-left: 25em;
+    padding-right: 25em;
+}
+
+
+
+footer {
+   background-color: #F9E7DC;
+}
