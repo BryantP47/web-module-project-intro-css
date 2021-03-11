@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	/* background: white; */
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+*{
+    max-width:100;
+    font-size: 62.5%;
+    /* border-width: 10px; */
+    /* border-color: rgb(170, 168, 48); */
+    box-sizing: border-box;
+    /* padding: 10px;
+    margin: 10px; */
+   
+}
+/* Start of Page */
+
+
+.nav {
+    display: inline-block;
+    padding-left: 25%;
+    border-radius: 20%;
+    border-radius: 25rem;
+    
+    padding: 3% 3% 3% 3%;
+    width: 200%;
+    height: 5%;
+
+}
+a.Plan:link {
+    font-size: 20px;
+    background-color:#FF764E;
+    padding-top: 3%;
+    padding-right: 1%;
+    margin-right: 2%;
+    border-radius: 20%;
+    border-top: 10em;
+    border-bottom: 20em;
+    text-align: center;
+}
+a.Learn:link {
+    font-size: 20px;
+    background-color:#5ED3EB;
+    margin-right: 2%;
+}
+a.Get:link {
+    font-size: 20px;
+    background-color:#FFCD69;
+    
+    background: #73AD21;
+   
+}
+.pic1{
+    
+  height: 100px;
+ 
+  
+  border-radius: 50rem;
+
+}
+.box1 {
+    background-color: #DDB9A3;
+    padding-left: 5em;
+
+}
+.top img{
+    height: 10rem;
+    width: 10rem;}
+
+    .top .box1 {
+    background-color: #DDB9A3;
+    background-size: 100rem;
+    padding: 10em;
+    color :white;
+}
+body {
+        font-family: 'Roboto Mono', monospace;
+
+}
+.reserve img{
+    width: 10px;
+    height: 10px;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-display: center;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 5em;
+}
+
+footer {
+   background-color: #F9E7DC;
+}
